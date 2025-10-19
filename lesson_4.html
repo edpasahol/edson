@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+    <title>LESSON 4: CSS IV</title>
+    <style>
+	 button {
+   	 background-color: #4CAF50;
+     	 color: white;
+     	 border: none;
+     	 padding: 12px 20px;
+     	 margin: 8px;
+    	 border-radius: 8px;
+      	cursor: pointer;
+      	font-size: 16px;
+      	transition: background-color 0.3s;
+    }
+        body {
+            font-family: MV Boli;
+            background-color: #0D7EF8;
+color:#223E9F;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6DD0FF;
+            color: #223E9F;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            background-color: #6DD0FF;
+            margin: 30px auto;
+            padding: 20px;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #004aad;
+        }
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #6DD0FF;
+            color: #223E9F;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .highlight {
+            color: #1a75ff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Reflection on CSS Rules and Classes</h1>
+        <h2>(Lesson 4: CSS RuleS, Properties, and Class Selectors)</h2>
+    </header>
+
+    <section>
+        <h2>What I Have Learned</h2>
+
+        <p>
+            In this lesson, I learned that a <span class="highlight">CSS Rule</span> 
+            consists of two main parts: the <strong>selector</strong> and one or more 
+            <strong>style declarations</strong>. The selector identifies which HTML 
+            element to style, while the declaration specifies what visual changes will 
+            be applied using <em>properties</em> and <em>values</em>.
+        </p>
+
+        <p>
+            I also learned about the <span class="highlight">six main groups of style properties</span>, 
+            which include: 
+        </p>
+        <ul>
+            <li>Fonts</li>
+            <li>Colors and Backgrounds</li>
+            <li>Text</li>
+            <li>Boxes and Layout</li>
+            <li>Lists</li>
+            <li>Tag Classifications</li>
+        </ul>
+
+        <p>
+            The lesson also introduced the concept of <span class="highlight">CSS Classes</span>, 
+            which are reusable style definitions used to format specific elements. 
+            Classes are defined using a dot (.) followed by the class name 
+            — for example, <code>.highlight</code>. 
+            Classes allow us to style multiple elements in a consistent way.
+        </p>
+
+        <p>
+            I learned that there are two ways to use class selectors:
+            <ul>
+                <li><strong>.classname</strong> — applies to any element with that class.</li>
+                <li><strong>element.classname</strong> — applies only to that specific element type with the class.</li>
+            </ul>
+        </p>
+
+        <p>
+            Lastly, I discovered that we can <span class="highlight">group selectors</span> 
+            using commas to apply the same style to multiple elements, which makes the 
+            code cleaner and easier to manage. For example: 
+            <code>h1, p { color: blue; }</code> styles both headers and paragraphs at once.
+        </p>
+
+        <p>
+            Overall, this lesson taught me how to create flexible and organized CSS 
+            code. I now understand how to use classes to make webpages more dynamic, 
+            consistent, and professional-looking.
+        </p>
+    </section>
+
+    <footer>
+     <button onclick="window.location.href='index.html'">Go Back to Main Page</button>
+<button onclick="window.location.href='lesson_3.html'">Go Back to Lesson 3</button>
+<button onclick="window.location.href='lesson_5.html'">Proceed to Lesson 5</button>
+    </footer>
+</body>
+</html>
