@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<head>
+
+<title>LESSON 5: CSS V</title>
+<style>
+ button {
+   	 background-color: #4CAF50;
+     	 color: white;
+     	 border: none;
+     	 padding: 12px 20px;
+     	 margin: 8px;
+    	 border-radius: 8px;
+      	cursor: pointer;
+      	font-size: 16px;
+      	transition: background-color 0.3s;
+    }
+        body {
+            font-family: MV Boli;
+            background-color: #0D7EF8;
+color:#223E9F;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6DD0FF;
+            color: #223E9F;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            background-color: #6DD0FF;
+            margin: 30px auto;
+            padding: 20px;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #004aad;
+        }
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #6DD0FF;
+            color: #223E9F;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .highlight {
+            color: #1a75ff;
+            font-weight: bold;
+        }
+
+.key-point {
+background-color: #fff;
+border-left: 4px solid #1a75ff;
+padding: 10px;
+margin: 10px 0;
+}
+
+#reflection {
+font-style: italic;
+background-color: #e0f7fa;
+padding: 10px;
+border-radius: 5px;
+}
+
+* {
+box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+margin-bottom: 15px;
+}
+
+p[class] {
+font-size: 1.1em;
+}
+
+p[class="reflection"] {
+color: #00695c;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>My Reflection on CSS Selectors</h1>
+<h2>(Lesson 5: CSS Selectors)</h2>
+</header>
+<section>
+<h2>What I Have Learned</h2>
+<div class="key-point">
+<strong>Element/Tag Selector:</strong> Styles all elements of a specific type, e.g., <code>h1</code> or <code>p</code>.
+</div>
+<div class="key-point">
+<strong>Class Selector:</strong> Applies styles to multiple elements sharing the same class attribute. Use <code>.classname</code>.
+</div>
+<div class="key-point">
+<strong>ID Selector:</strong> Styles a unique element with a specific id using <code>#idname</code>.
+</div>
+<div class="key-point">
+<strong>Universal Selector:</strong> Targets all elements on the page with <code>*</code>.
+</div>
+<div class="key-point">
+<strong>Group Selector:</strong> Applies styles to multiple elements by separating selectors with commas, e.g., <code>h1, h2, p</code>.
+</div>
+<div class="key-point">
+<strong>Attribute Selector:</strong> Styles elements based on attributes, e.g., <code>p[class]</code>.
+</div>
+
+<p id="reflection" class="reflection">
+Learning about CSS selectors has made me realize how powerful and flexible CSS is. Different selectors allow me to target HTML elements in precise ways—whether it's styling all paragraphs, specific sections, or elements with certain attributes.
+I now understand how combining selectors—like classes and IDs—helps create organized, maintainable stylesheets. This knowledge will help me design more efficient and visually appealing web pages in the future.
+</p>
+</section>
+<footer>
+<button onclick="window.location.href='index.html'">Go Back to Main Page</button>
+<button onclick="window.location.href='lesson_4.html'">Go Back to Lesson 4</button>
+<button onclick="window.location.href='lesson_6.html'">Proceed to Lesson 6</button>
+</footer>
+</body>
+</html>

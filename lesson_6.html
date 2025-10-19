@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<head>
+   
+    <title>LESSON 6: CSS VI</title>
+ <style>
+ button {
+   	 background-color: #4CAF50;
+     	 color: white;
+     	 border: none;
+     	 padding: 12px 20px;
+     	 margin: 8px;
+    	 border-radius: 8px;
+      	cursor: pointer;
+      	font-size: 16px;
+      	transition: background-color 0.3s;
+    }
+        body {
+            font-family: MV Boli;
+            background-color: #0D7EF8;
+color:#223E9F;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6DD0FF;
+            color: #223E9F;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            background-color: #6DD0FF;
+            margin: 30px auto;
+            padding: 20px;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #004aad;
+        }
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #6DD0FF;
+            color: #223E9F;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .highlight {
+            color: #1a75ff;
+            font-weight: bold;
+        }
+        }
+        ul {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Reflection on CSS Dimensions and Pseudo-Classes</h1>
+        <h2>(Lesson 6: Setting Dimensions and Link States)</h2>
+    </header>
+
+    <section>
+        <h2>What I Have Learned</h2>
+
+        <p>
+            In this lesson, I learned that CSS can be used to manage the 
+            <span class="highlight">dimensions</span> of web elements such as 
+            width, height, and visibility. These properties allow us to 
+            control the layout and appearance of different parts of a webpage, 
+            making them more flexible and organized.
+        </p>
+
+        <p>
+            The important properties I learned include:
+        </p>
+        <ul>
+            <li><strong>visibility</strong> – determines whether an element is visible or hidden.</li>
+            <li><strong>width</strong> and <strong>height</strong> – control the size of an element.</li>
+            <li><strong>max-width / min-width</strong> – define the maximum and minimum width.</li>
+            <li><strong>max-height / min-height</strong> – define the maximum and minimum height.</li>
+            <li><strong>line-height</strong> – adjusts the spacing between lines of text.</li>
+        </ul>
+
+        <p>
+            I also learned about <span class="highlight">CSS Pseudo-Classes</span>, 
+            which are special selectors that define the behavior of elements 
+            under certain conditions. These are commonly used with links 
+            to control how they look when interacted with.
+        </p>
+
+        <p>
+            The four main link pseudo-classes are:
+        </p>
+        <ul>
+            <li><strong>:link</strong> – for unvisited links.</li>
+            <li><strong>:visited</strong> – for links that have been clicked before.</li>
+            <li><strong>:hover</strong> – when the mouse pointer is over a link.</li>
+            <li><strong>:active</strong> – when the link is being clicked.</li>
+        </ul>
+
+        <p>
+            I discovered that the correct order to write these is 
+            <span class="highlight">LVHA (Link, Visited, Hover, Active)</span> 
+            to make sure all link effects display properly. 
+            I also learned that pseudo-classes are not only for links — they can 
+            be used for images, paragraphs, and other elements to make websites 
+            more interactive and dynamic.
+        </p>
+
+        <p>
+            Overall, this lesson helped me understand how to control both the 
+            <strong>structure</strong> and <strong>behavior</strong> of webpage 
+            elements using CSS. By mastering dimensions and pseudo-classes, 
+            I can make web pages that are both well-designed and user-friendly.
+        </p>
+    </section>
+
+    <footer>
+<button onclick="window.location.href='index.html'">Go Back to Main Page</button>
+<button onclick="window.location.href='lesson_5.html'">Go Back to Lesson 5</button>
+    </footer>
+</body>
+</html>
